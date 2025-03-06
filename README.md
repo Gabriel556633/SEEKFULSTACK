@@ -1,4 +1,4 @@
-# Proyecto de Gestión de Tareas BACKEND Y FRONTEND 
+# Proyecto de Gestión de Tareas FRONTEND 
 
 # REVISAR LAS RAMAS DE LOS RESPECTIVOS CODIGO BACK Y FRONT
 
