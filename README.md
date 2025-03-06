@@ -1,4 +1,4 @@
-# Proyecto de Gestión de Tareas
+# Proyecto de Gestión de Tareas BACKEND
 
 Este proyecto es una aplicación web para la gestión de tareas, desarrollada utilizando Angular 12 en el frontend y Spring Boot con Java 17 en el backend. La aplicación soporta las operaciones básicas de un CRUD (Crear, Leer, Actualizar y Eliminar) y cuenta con configuración para ser desplegada en cualquier entorno mediante Docker.
 
