@@ -1,55 +1,27 @@
-# Proyecto de Gestión de Tareas FRONTEND 
+# TestSeekGabrielbm2
 
-# REVISAR LAS RAMAS DE LOS RESPECTIVOS CODIGO BACK Y FRONT
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
 
-Este proyecto es una aplicación web para la gestión de tareas, desarrollada utilizando Angular 12 en el frontend y Spring Boot con Java 17 en el backend. La aplicación soporta las operaciones básicas de un CRUD (Crear, Leer, Actualizar y Eliminar) y cuenta con configuración para ser desplegada en cualquier entorno mediante Docker.
+## Development server
 
-## Tecnologías Utilizadas
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-### Frontend:
-- **Framework:** Angular 12
-- **Node.js:** Versión 14
-- **Diseño:** Angular Material
-- **Componentes:**
-  - Una vista principal que lista todas las tareas, con opciones para actualizar y eliminar.
-  - Un componente modal para añadir nuevas tareas.
+## Code scaffolding
 
-### Backend:
-- **Framework:** Spring Boot
-- **Lenguaje:** Java 17
-- **Características principales:**
-  - CRUD completo implementado con buenas prácticas.
-  - Configuración de CORS para permitir el acceso seguro.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Endpoints del Backend
+## Build
 
-- **Listar y añadir tareas:**
-  - URL: `http://localhost:8080/api/tasks`
-  - Métodos: `GET`, `POST`
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-- **Actualizar y eliminar tareas:**
-  - URL: `http://localhost:8080/api/tasks/{id}`
-  - Métodos: `PUT`, `DELETE`
+## Running unit tests
 
-## Pruebas
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Se implementaron pruebas unitarias y funcionales tanto para el frontend como para el backend, garantizando la correcta funcionalidad de la aplicación.
+## Running end-to-end tests
 
-## Configuración de Docker
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-### Dockerfile
-Se crearon Dockerfiles para el frontend y el backend, permitiendo empaquetar la aplicación para su despliegue.
+## Further help
 
-### Docker Compose
-Se configuró un archivo `docker-compose.yml` para levantar tanto el frontend como el backend en contenedores, asegurando una integración sencilla y escalable en cualquier entorno (local o en la nube).
-
-## Cómo Ejecutar la Aplicación
-
-### Requisitos Previos:
-- Docker y Docker Compose instalados en tu máquina.
-
-### Pasos:
-1. Construye y levanta los servicios con Docker Compose:
-   ```bash
-   docker-compose up --build
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
